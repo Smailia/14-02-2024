@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canzoni</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src ="script.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="canzone">
+            <h2>Like me</h2>
+            <img src="like me.jpeg">
+            <p class="info" style="display: none;">Meekz è l’enigmatico rapper mascherato, nato lungo le strade di Gorton a sud-est di Manchester.</p>
+            <button onclick="toggleInfo(this)">Info</button>
+            <div class="audio-box">
+                <audio controls>
+                    <source src="">
+                </audio>
+            </div>
+            <iframe width="550" height="350" src="https://www.youtube.com/watch?app=desktop&v=hm-MOdLU21M&t=0m20s"></iframe>
+        </div>
+
+        <div class="canzone">
+            <h2>Kills</h2>
+            <img src="kills.jpeg">
+            <p class="info" style="display: none;">In “Kills” by Chief Keef, we’re diving deep into a narrative laced with the motifs of street entrepreneurship and indulgent luxury lifestyle</p>
+            <button onclick="toggleInfo(this)">Info</button>
+            <div class="audio-box">
+                <audio controls>
+                    <source src="Chief Keef - Kills (Official Audio).mp3">
+                </audio>
+            </div>
+            <iframe width="550" height="350" src="https://www.youtube.com/watch?v=zBh5Kxq63Sw"></iframe>
+        </div>
+        <div class="canzone">
+            <h2>GoStyle Freestyle</h2>
+            <img src="GoStyle.jpg">
+            <p class="info" style="display: none;">The following tracks will sound good when mixed with  Jace! — Gostyle 2023 Freestyle  because they have similar tempos, 
+                adjacent Camelot values, and complementary styles.</p>
+            <button onclick="toggleInfo(this)">Info</button>
+            <div class="audio-box">
+                <audio controls>
+                    <source src="Jace! - GoStyle 2023 Freestyle (Official Music Video).mp3">
+                </audio>
+            </div>
+            <iframe width="550" height="350" src="https://www.youtube.com/watch?v=hLsZ-KyC5GM"></iframe>
+        </div>
+    </div>
+</body>
+</html>
